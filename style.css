@@ -1,0 +1,51 @@
+/* Reset default margin and padding for elements */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set dark background color and Verdana font */
+body {
+    background-color: #333; /* Dark background color */
+    font-family: Verdana, Arial, sans-serif; /* Use Verdana font or fallback to Arial or sans-serif */
+    color: #fff; /* Set text color to white */
+}
+
+header {
+    background-color: #222; /* Header background color (darker) */
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    background-color: #111; /* Navigation background color (even darker) */
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Customize other sections, text colors, and styles as needed */
+
+section {
+    padding: 20px;
+}
+
+footer {
+    background-color: #111; /* Footer background color (even darker) */
+    padding: 10px;
+    text-align: center;
+    color: #fff;
+}
